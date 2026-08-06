@@ -1,40 +1,44 @@
-# Personal Portfolio Website
+# Md. Shahinur Hasan — Portfolio
 
-This repository contains the source code and files for my personal portfolio website. The website is built using HTML, CSS, and JavaScript.
+A premium, dark-themed personal portfolio built with vanilla HTML, CSS, and JavaScript — no frameworks. Designed to showcase AI/ML engineering experience, education, projects, publications, certifications, and achievements.
 
-## Description
+## Structure
 
-The personal portfolio website showcases my skills, projects, and experiences as a web developer. It serves as an online platform to highlight my work and provide information about my background and expertise.
+```
+portfolio/
+├── index.html
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── animations.css
+├── js/
+│   ├── main.js
+│   ├── animations.js
+│   ├── particles.js
+│   ├── typing.js
+│   ├── projects.js
+│   └── utils.js
+├── images/
+│   ├── profile.jpg
+│   ├── background/
+│   ├── certificates/
+│   ├── projects/
+│   ├── publications/
+│   ├── experience/
+│   └── icons/
+└── assets/
+    ├── resume/Shahinur_Hasan_CV.pdf
+    ├── fonts/
+    └── documents/
+```
 
-## Features
+## Setup
 
-- Home: Introduces myself and provides a brief overview of my skills and interests.
-- About: Details my professional background, education, and relevant experience.
-- Projects: Showcases the projects I have worked on, including descriptions, screenshots, and links to live demos or repositories.
-- Skills: Lists the programming languages, frameworks, and tools I am proficient in.
-- Contact: Offers various ways to get in touch with me, such as through email, social media, or a contact form.
+1. Add a profile photo at `images/profile.jpg`.
+2. Add project screenshots to `images/projects/` (see filenames referenced in `index.html`).
+3. Add your CV PDF at `assets/resume/Shahinur_Hasan_CV.pdf`.
+4. Update social links (GitHub/LinkedIn) in `index.html`.
 
-## Technologies Used
+## Deployment (GitHub Pages)
 
-- HTML: Markup language used for structuring the website.
-- CSS: Stylesheet language used for designing and formatting the website.
-- JavaScript: Programming language used for adding interactivity and dynamic features.
-
-## Getting Started
-
-To view the website locally or make modifications, follow these steps:
-
-1. Clone the repository: `git clone [repository URL]`
-2. Open the project folder in your preferred code editor.
-3. Open the `index.html` file in a web browser to view the website.
-
-## Contributing
-
-I appreciate any suggestions, feedback, or contributions to enhance this personal portfolio website. If you would like to contribute, please follow the guidelines in the `CONTRIBUTING.md` file.
-
-## Contact
-
-If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
-
-Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
-![Portfolio](https://shahinurhasans.github.io/port_folio/)
+Push this folder to a GitHub repository and enable GitHub Pages on the `main` branch — all paths are relative, so no build step is required.

@@ -1,863 +1,894 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/newcss.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
-  </head>
-
-  <body oncontextmenu="return false">
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav__logo">Shahinur</a>
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list grid">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active-link">
-                <i class="uil uil-estate nav__icon"></i>Home
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">
-                <i class="uil uil-user nav__icon"></i>About
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">
-                <i class="uil uil-file-alt nav__icon"></i>Skills
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#qualification" class="nav__link">
-                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#portfolio" class="nav__link">
-                <i class="uil uil-scenery nav__icon"></i>Projects
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">
-                <i class="uil uil-message nav__icon"></i>Contact-Me
-              </a>
-            </li>
-          </ul>
-          <i class="uil uil-times nav__close" id="nav-close"></i>
-        </div>
-        <div class="nav__btns">
-          <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
-
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="uil uil-apps"></i>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- main-->
-
-    <main class="main">
-      <!--========================= Home =====================-->
-
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__content grid">
-            <div class="home__social">
-              <a
-                href="https://www.linkedin.com/in/shahinur-hasan-972410227/"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-linkedin-alt home__icon"></i>
-              </a>
-
-              <a
-                href="https://github.com/Shahinurhasans"
-                target="_blank"
-                class="home__social-icon"
-              >
-                <i class="uil uil-github-alt home__icon"></i>
-              </a>
-            </div>
-            <div class="home__img">
-              <svg
-                class="home__blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home__blob-img"
-                    x="-79"
-                    y="-46"
-                    xlink:href="assets/img/r.jpg"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div class="home__data">
-              <h1 class="home__title">Hi, I'm Shahinur Hasan</h1>
-              <h3 class="home__subtitle">
-                Electronics and Communication Engineering Student
-              </h3>
-              <p class="home__description">
-                A third-year undergraduate engineering student at
-                <strong>Khulna University of Engineering and Technology (KUET) </strong>,Khulna,Banglasesh.
-              </p>
-              <a href="#contact" class="button button--flex">
-                Contact me<i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-              <span class="home__scroll-name">Scroll down</span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!--======================= About========================-->
-
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
-
-        <div class="about__container container grid">
-          <img src="assets\img\w.jpeg" alt="" class="about__img" />
-
-          <div class="about__data">
-            <p class="about__description">
-              I'm a third-year ECE undergraduate, passionate about technology and an avid reader. I have a self-motivated and can-do attitude, thriving in challenging and dynamic environments. Seeking a competitive position to enhance my skills and contribute to a professional organization. I'm very much passionate to learn new stuff that interests me and can help me to get better.
-            </p>
-
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">03.70</span>
-                <span class="about__info-name">Current <br />CGPA</span>
-              </div>
-
-              <div>
-                <span class="about__info-title">04+</span>
-                <span class="about__info-name"
-                  >
-                  Projects</span
-                >
-              </div>
-
-              <div>
-                <span class="about__info-title">06+</span>
-                <span class="about__info-name">Months <br />experience</span>
-              </div>
-            </div>
-
-            <div class="about__buttons">
-              <a download="" href="assets\MY_CV.pdf" class="button button--flex">
-                Download CV<i class="fas fa-download button__icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--===================== SKILLS =====================-->
-
-      <section class="skills section" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <span class="section__subtitle">My technical level</span>
-
-        <div class="skills__container container grid">
-          <div>
-            <!--==================== Skill 1 =================-->
-            <div class="skills__content skills__open">
-              <div class="skills__header">
-                <i class="fas fa-pencil-ruler skills__icon"></i>
-
-                <div>
-                  <h1 class="skills__title">Programming Languages</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-              
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">C</h3>
-                  </div>
-                  
-                </div>
-                
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">C++</h3>
-                    </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">JavaScript</h3>
-                    </div>
-                    
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">Python</h3>
-                    </div>
-
-                  
-                   
-                  </div>
-                  <div class="skills__data">
-                    <div class="skills__titles">
-                      <h3 class="skills__name">TypeScript</h3>
-                    </div>
-                </div>
-                
-                
-              </div>
-            </div>
-
-            <!--==================== Skill 2 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-code skills__icon"></i>
-
-                <div>
-                  <h1 class="skills__title">IT Constructs</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">DBMS</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">DS & Algorithms</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">OOP</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">OS</h3>
-                  </div>
-                  
-                </div>
-                
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <!--==================== Skill 3 =================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="fas fa-swatchbook skills__icon"></i>
-                <div>
-                  <h1 class="skills__title">Technologies</h1>
-                </div>
-
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Git</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MongoDB</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">NextJs</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">NodeJs</h3>
-                  </div>
-                  
-                </div>
-                
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Tailwind</h3>
-                  </div>
-                  
-                </div>
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">MySQL</h3>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--==================== Qualifications ==================-->
-
-      <section
-        class="qualification__section service__section"
-        id="qualification"
-      >
-        <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
-
-        <div
-          class="qualification__container container grid services__container"
-        >
-          <div class="qualification__tabs">
-            <div
-              class="qualification__button button--flex qualification__active"
-              data-target="#education"
-            >
-              <i class="uil uil-graduation-cap qualification__icon"></i>
-              Education
-            </div>
-          </div>
-
-          <div class="qualification__sections">
-            <!--====== Qualification Content 1 ======-->
-            <div
-              class="qualification__content qualifiation__active services__content"
-              data-content
-              id="education"
-            >
-              <!--====== Qualification 1 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">SSC</h3>
-                  <span class="qualification__subtitle"
-                    >Baniajan C.T. Pilot Govt. High School <br />High School</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    - 2018
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Class 10th Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Scored A+ in all relevent Subjects.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 96%</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Came runners up in inter-school Ball Badminton</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-              </div>
-
-              <!--====== Qualification 2 ======-->
-              <div class="qualification__data">
-                <div></div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <span class="qualification__line"></span>
-                </div>
-                <div>
-                  <h3 class="qualification__title">Class 12th</h3>
-                  <span class="qualification__subtitle"
-                    >Netrakona Govt. College <br /> College</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    - 2020
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">
-                        Class 12th Summary :
-                      </h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>
-                            Got A+ in all relevent subjects.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__moda-icon"
-                          ></i>
-                          <p>Scored 90.5%</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!--====== Qualification 3 ======-->
-              <div class="qualification__data">
-                <div>
-                  <h3 class="qualification__title">University</h3>
-                  <span class="qualification__subtitle"
-                    >Khulna University of Engineering and Technology,Khulna</span
-                  >
-                  <div class="qualification__calender">
-                    <i class="uil uil-calendar-alt"></i>
-                    2020 - Continued.
-                  </div>
-                  <span
-                    class="button button--flex button--small button--link services__button"
-                  >
-                    View More
-                    <i class="uil uil-arrow-right button__icon"></i>
-                  </span>
-                  <div class="services__modal">
-                    <div class="services__modal-content">
-                      <h4 class="services__modal-title">University Summary :</h4>
-                      <i class="uil uil-times services__modal-close"></i>
-                      <ul class="services__modal-services grid">
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Studying core subjects of IT including DSA, Embedded
-                            systems, Design analysis and algorithm, Operating
-                            systems, and Computer architecture .
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>Scored an 3.70 CGPA till now.</p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Student coordinator in media and
-                            publication club of the college.
-                          </p>
-                        </li>
-                        <li class="services__modal-service">
-                          <i
-                            class="uil uil-check-circle services__modal-icon"
-                          ></i>
-                          <p>
-                            Campus ambassador of Github student Dev.
-                          </p>
-                        </li>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <span class="qualification__rounder"></span>
-                  <!--<span class="qualification__line"></span>-->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Most recent work</span>
-
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio5.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  DarkSurfer-Extension
-                </h3>
-                <p class="portfolio__description">
-                  DarkSurfer-Extension, is a project based on the application of advanced Language Models LMs to detect and eliminate dark patterns on websites. It aims to improve user-awareness, exposing real-time of devious design practices in situ. It helps make the internet more user-friendly by using its novel LMs and popular LM-based models, such as RoBERTa, BERT, and XLNet.
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfollio 2-------------------- -->
-
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Responsive-Weather-Forecast-Website
-                </h3>
-                <p class="portfolio__description">
-                  This project is a weather website that provides live weather
-                  updates and forecasts based on your location. Stay informed
-                  about current weather conditions, temperature, and more.
-                  Explore interactive maps, hourly/daily forecasts, and helpful
-                  insights. Stay ahead of the forecast and make the most of your
-                  day!
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- ------------------------portfollio 3-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio2.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Spotify-Clone</h3>
-                <p class="portfolio__description">
-                  Spotify Clone is a web app developed using HTML, CSS, and
-                  JavaScript. It recreates Spotify's interface and features,
-                  allowing users to browse, search, and play songs, create
-                  playlists, and discover new music. Responsive design ensures a
-                  seamless experience on any device. Contributions are welcome!
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfollio 4-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio3.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Language Translator</h3>
-                <p class="portfolio__description">
-                  This language translator web app is a user-friendly tool built
-                  with HTML, CSS, and JavaScript. It leverages Google Translate
-                  API to seamlessly translate text between multiple languages.
-                  The app features a simple interface, ensuring smooth
-                  performance across devices..
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-
-            <!-- ------------------------portfollio 5-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio4.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Sorting Visualizer</h3>
-                <p class="portfolio__description">
-                  Sorting Visualizer is a Java-based project that allows users
-                  to visualize various sorting algorithms in action using a
-                  Graphical User Interface (GUI). It provides an interactive and
-                  educational way to understand how different sorting algorithms
-                  work by visually demonstrating their step-by-step sorting
-                  process.
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/posts/venkatesh-kamath-_algorithmdesign-sortingvisualizer-javaprojects-activity-7095437035125043200-fWDl?utm_source=share&utm_medium=member_desktop"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See Live
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- add arrows -->
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <!-- add pagination -->
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!--===================== Contact Me =====================-->
-      <section class="contact section" id="contact">
-        <h2 class="section__title">Contact Me</h2>
-        <span class="section__subtitle">Get in touch</span>
-
-        <div class="contact__container container grid">
-          <div>
-            <div class="contact__information">
-              <i class="uil uil-calling contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Contact Me</h3>
-                <span class="contact__subtitle"
-                  ><a href="tel:+8801989354060"></a>+8801989354060</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-envelope-minus contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle"
-                  >shahinhasanronys@gmail.com</span
-                >
-              </div>
-            </div>
-
-            <div class="contact__information">
-              <i class="uil uil-map-marker contact__icon"></i>
-
-              <div>
-                <h3 class="contact__title">Location</h3>
-                <span class="contact__subtitle"
-                  >Shahid Sritit Hall,KUET,Khulna.</span
-                >
-              </div>
-            </div>
-          </div>
-
-          <form action="" class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="content__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
-
-              <div class="contact__content">
-                <label for="" class="content__label">Email</label>
-                <input type="Email" class="contact__input" />
-              </div>
-            </div>
-
-            <div class="contact__content">
-              <label for="" class="content__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
-            </div>
-
-            <div>
-              <a
-                href=" mailto: shahinhasanronys@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                class="button button--flex"
-              >
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--================== Footer ===============-->
-    <footer class="footer">
-      <div class="footer__bg">
-        <div class="footer__container container grid">
-          <div>
-            <h1 class="footer__title">Shahinur</h1>
-            <span class="footer__subtitle"
-              >Electronics and Communication Engineering Student</span
-            >
-          </div>
-
-          <ul class="footer__links">
-            <li>
-              <a href="#qualification" class="footer__link">Qualification</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="footer__link">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact" class="footer__link">Contact-Me</a>
-            </li>
-          </ul>
-
-          <div class="footer__socials">
-            <a
-              href="#"
-              class="footer__social"
-              target="__blank"
-            >
-            <i class="fa-brands fa-instagram"></i>
-            </a>
-
-            <a
-              href="https://x.com/SHRONYS"
-              target="__blank"
-              class="footer__social"
-            >
-            <i class="fa-brands fa-x-twitter"></i>
-            </a>
-          </div>
-        </div>
-
-        <p class="footer__copy">&#169; Shahinur. All right reserved</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Shahinur Hasan | AI Engineer &amp; Machine Learning Researcher</title>
+  <meta name="description" content="Portfolio of Md. Shahinur Hasan — AI Engineer, Machine Learning Engineer, BlockChain Security Analyst, AI Researcher, LLM Developer, and AI Automation Engineer.">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ===== Loading Screen ===== -->
+  <div id="loading-screen">
+    <div class="loader-content">
+      <div class="loader-logo">SH</div>
+      <div class="loader-bar"><span></span></div>
+      <p class="loader-text">Initializing intelligent systems...</p>
+    </div>
+  </div>
+
+  <!-- ===== Scroll Progress Bar ===== -->
+  <div id="scroll-progress"></div>
+
+  <!-- ===== Mouse Glow ===== -->
+  <div id="mouse-glow"></div>
+
+  <!-- ===== Particles Background ===== -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ===== Navbar ===== -->
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="nav-logo">Shahinur<span>.</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#publications" class="nav-link" data-section="publications">Publications</a></li>
+        <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+        <li><a href="#competitions" class="nav-link" data-section="competitions">Competitions</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="assets/resume/Updated_CV_With_Image_Shahinur.pdf" class="btn btn-small btn-outline" download>Resume</a>
+        <button id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
       </div>
-    </footer>
+    </nav>
+  </header>
 
-    <!--================== SCROLL TOP ==================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
+  <!-- ===== Home / Hero ===== -->
+  <section id="home" class="section hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="container hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Md. Shahinur Hasan</h1>
+        <h2 class="hero-typing">
+          <span id="typing-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-summary">
+          Passionate AI Engineer with a very strong foundation in Machine Learning, Deep Learning, Small Language Model(SLM)
+          , Large Language Models(LLM), Retrieval-Augmented Generation (RAG),
+          and AI Automation. I enjoy transforming research ideas into practical intelligent systems
+          that solve real-world problems. My interests span Healthcare AI, Generative AI,
+          Document Intelligence, AI Safety, and Production AI systems.
+        </p>
+        <div class="hero-buttons">
+          <a href="assets/resume/Updated_CV_With_Image_Shahinur.pdf" class="btn btn-primary ripple" download>Download CV</a>
+          <a href="#projects" class="btn btn-outline ripple">View Projects</a>
+          <a href="#contact" class="btn btn-ghost ripple">Contact Me</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          </a>
+          <a href="mailto:shahinhasanronys@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24"><path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.01L12 13 22 6.01V6H2Zm20 2.24-9.34 6.6a1 1 0 0 1-1.15 0L2 8.24V18h20V8.24Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrap" data-aos="fade-left">
+        <div class="hero-image-glow"></div>
+        <div class="hero-image-frame">
+          <img src="images/profile.jpg" alt="Md. Shahinur Hasan" id="profile-img" onerror="this.onerror=null;this.src='images/profile.png';">
+        </div>
+        <div class="hero-badge hero-badge-1">🧠 AI Research</div>
+        <div class="hero-badge hero-badge-2">⚡ LLM Engineering</div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-down-indicator" aria-label="Scroll down">
+      <span></span>
     </a>
+  </section>
 
-    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
-    <script src="assets/ptj.js"></script>
-  </body>
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Get To Know Me</p>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            I'm an Electronics and Communication Engineering graduate from
+            Khulna University of Engineering &amp; Technology (KUET) with a deep passion for
+            Artificial Intelligence. My journey bridges hardware-level signal understanding with
+            modern software intelligence — from Biomedical AI Research on
+            physiological signals to building production-grade Large Language Model
+            applications.
+          </p>
+          <p>
+            I specialize in Deep LearningGenerative AI,
+            Machine Learning, Computer Vision, and
+            AI Automation — designing systems that don't just perform well in
+            notebooks, but ship reliably in the real world. I'm equally comfortable digging into
+            research papers and engineering resilient, observable, production AI pipelines.
+          </p>
+          <p>
+            I'm a continuous learner, always exploring the intersection of research and
+            engineering — currently deepening my expertise in Retrieval-Augmented Generation (RAG),
+            AI Safety, and Document Intelligence.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="info-item"><span>Name</span><p>Md. Shahinur Hasan</p></div>
+            <div class="info-item"><span>Role</span><p>AI Engineer</p></div>
+            <div class="info-item"><span>Email</span><p>shahinhasanronys@gmail.com</p></div>
+            <div class="info-item"><span>Phone</span><p>+8801989354060</p></div>
+          </div>
+        </div>
+
+        <div class="about-stats" data-aos="fade-left">
+          <div class="stat-card">
+            <h3><span class="counter" data-target="6">0</span>+</h3>
+            <p>AI/ML Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3><span class="counter" data-target="6">0</span></h3>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-card">
+            <h3><span class="counter" data-target="3">0</span></h3>
+            <p>Research Publications</p>
+          </div>
+          <div class="stat-card">
+            <h3><span class="counter" data-target="3">0</span>.70</h3>
+            <p>CGPA / 4.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Academic Background</p>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">2020 — 2025</span>
+            <h3>Bachelor of Science in Electronics and Communication Engineering</h3>
+            <p class="timeline-org">Khulna University of Engineering &amp; Technology (KUET)</p>
+            <p class="timeline-desc">Graduated with a strong academic record while actively pursuing AI research and practical machine learning projects alongside coursework.</p>
+            <span class="timeline-badge">CGPA: 3.70 / 4.00</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">2018 — 2020</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="timeline-org">Netrakona Government College</p>
+            <p class="timeline-desc">Completed higher secondary education in Science with distinction.</p>
+            <span class="timeline-badge">GPA: 5.00 / 5.00</span>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">2018</span>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="timeline-org">Baniajan CT Pilot High School</p>
+            <p class="timeline-desc">Completed secondary education with a perfect academic score.</p>
+            <span class="timeline-badge">GPA: 5.00 / 5.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">My Journey</p>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">Current</span>
+            <h3>AI Automation Engineer</h3>
+            <p class="timeline-org">Kontoor Brands</p>
+            <ul class="timeline-list">
+              <li>Design and deploy AI automation solutions for enterprise workflows</li>
+              <li>Build workflow automation pipelines to reduce manual effort</li>
+              <li>Develop rule extraction systems from unstructured compliance documents</li>
+              <li>Enable AI-assisted compliance monitoring and reporting</li>
+              <li>Create machine-readable safety knowledge bases</li>
+              <li>Drive digital transformation and process optimization initiatives</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-year">Previous</span>
+            <h3>Safety Engineer</h3>
+            <p class="timeline-org">Kontoor Brands</p>
+            <ul class="timeline-list">
+              <li>Managed electrical safety programs and compliance audits</li>
+              <li>Ensured adherence to industrial safety standards and regulations</li>
+              <li>Conducted risk assessments across manufacturing operations</li>
+              <li>Maintained detailed safety documentation and reporting</li>
+              <li>Supported automation integration within safety-critical processes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">What I Work With</p>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card tilt-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="skill-icon">💻</div>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>C</span><span>C++</span><span>SQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card tilt-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-icon">🤖</div>
+          <h3>Artificial Intelligence</h3>
+          <div class="skill-tags">
+            <span>Machine Learning</span><span>Deep Learning</span><span>Computer Vision</span><span>NLP</span>
+            <span>Generative AI</span><span>LLMs</span><span>Fine-Tuning</span>
+            <span>RAG</span><span>Embeddings</span><span>Vector Search</span><span>Model Evaluation</span>
+            <span>Supervised Learning</span><span>Unsupervised Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-card tilt-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-icon">🧰</div>
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="skill-tags">
+            <span>TensorFlow</span><span>PyTorch</span><span>Scikit-learn</span><span>LangChain</span>
+            <span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>OpenCV</span><span>Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-card tilt-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-icon">🗄️</div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span>MySQL</span><span>MongoDB</span><span>Redis</span><span>FAISS</span>
+          </div>
+        </div>
+
+        <div class="skill-card tilt-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-icon">⚙️</div>
+          <h3>DevOps &amp; MLOps</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>Docker</span><span>MLflow</span>
+            <span>DVC</span><span>DagsHub</span><span>AWS EC2</span><span>AWS S3</span><span>Power Automate</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">My Work</p>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="project-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI / LLM</button>
+        <button class="filter-btn" data-filter="ml">Machine Learning</button>
+        <button class="filter-btn" data-filter="web">Web / Full-Stack</button>
+        <button class="filter-btn" data-filter="dsa">DSA / Systems</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card tilt-card" data-category="ml" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/threat-lens.png" alt="Threat-Lens" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Threat-Lens</h3>
+            <p class="project-desc">A network security machine learning pipeline with full MLOps tooling for experiment tracking, versioning, and cloud deployment.</p>
+            <div class="project-tech">
+              <span>Python</span><span>MongoDB</span><span>Docker</span><span>MLflow</span><span>AWS</span><span>DagsHub</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-threat">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card tilt-card" data-category="ml" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/intent-search.png" alt="Intent Based Searching" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Intent Based Searching</h3>
+            <p class="project-desc">A hybrid semantic search engine combining dense embeddings and keyword-based ranking, with caching for large-scale retrieval.</p>
+            <div class="project-tech">
+              <span>Sentence Transformers</span><span>Python</span><span>Redis</span><span>BM25</span><span>FAISS</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-intent">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card tilt-card" data-category="ai" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/tube-summarizer.png" alt="Tube Summarizer" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Tube Summarizer</h3>
+            <p class="project-desc">A Streamlit application that extracts YouTube transcripts and generates concise AI-powered summaries using Google's Gemini API.</p>
+            <div class="project-tech">
+              <span>Python</span><span>Google Gemini</span><span>Streamlit</span><span>YouTube Transcript API</span><span>Python Dotenv</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-tube">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card tilt-card" data-category="ai" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/multi-chat-pdf.png" alt="Multi Chat PDF" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Multi Chat PDF</h3>
+            <p class="project-desc">A Retrieval-Augmented Generation (RAG) application enabling conversational interaction with multiple PDF documents using Google's Gemini AI.</p>
+            <div class="project-tech">
+              <span>Python</span><span>LangChain</span><span>Gemini</span><span>FAISS</span><span>Streamlit</span><span>PyPDF2</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-pdf">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card tilt-card" data-category="web" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/pizza-hut.png" alt="Pizza Hut Ordering System" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Pizza Hut Ordering System</h3>
+            <p class="project-desc">A full-stack food ordering platform with dynamic ordering, admin panel, authentication, and order processing.</p>
+            <div class="project-tech">
+              <span>ASP.NET</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>MySQL</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-pizza">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card tilt-card" data-category="dsa" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/evm-dsa.png" alt="EVM by DSA" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>EVM by DSA</h3>
+            <p class="project-desc">A console-based Electronic Voting Machine simulation built in C++ using linked lists for dynamic candidate management.</p>
+            <div class="project-tech">
+              <span>C++</span><span>Data Structures</span><span>Linked Lists</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-evm">Read More</button>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card tilt-card" data-category="ml" data-aos="fade-up">
+          <div class="project-image">
+            <img src="images/projects/crackdetect.png" alt="CrackDetect" onerror="this.onerror=null;this.src='images/projects/placeholder.jpg'">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-icon-btn" aria-label="Demo">🔗</a>
+                <a href="#" class="project-icon-btn" aria-label="GitHub">
+                  <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>CrackDetect</h3>
+            <p class="project-desc">A multimodal deep learning system that fuses building images and acoustic sound waves to detect and classify structural crack severity.</p>
+            <div class="project-tech">
+              <span>PyTorch</span><span>Python</span><span>OpenCV</span><span>Librosa</span><span>NumPy</span><span>Scikit-learn</span>
+            </div>
+            <button class="btn btn-small btn-outline read-more-btn" data-target="modal-crackdetect">Read More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Project Modals ===== -->
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+
+  <div class="project-modal" id="modal-tube">
+    <button class="modal-close">&times;</button>
+    <h3>Tube Summarizer</h3>
+    <p><strong>Description:</strong> A Streamlit application that extracts YouTube transcripts and generates concise AI-powered summaries using Google's Gemini API.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Extract transcript from YouTube videos</li>
+      <li>Generate approximately 250-word AI summaries</li>
+      <li>Display video thumbnail</li>
+      <li>Clean, minimal UI</li>
+      <li>Supports educational videos</li>
+      <li>Fast summarization</li>
+    </ul>
+    <h4>Workflow</h4>
+    <div class="workflow-steps">
+      <span>Paste YouTube URL</span>→<span>Extract Transcript</span>→<span>Send to Gemini</span>→<span>Generate Summary</span>→<span>Display Notes</span>
+    </div>
+  </div>
+
+  <div class="project-modal" id="modal-pdf">
+    <button class="modal-close">&times;</button>
+    <h3>Multi Chat PDF</h3>
+    <p><strong>Description:</strong> A Retrieval-Augmented Generation (RAG) application that enables users to upload multiple PDF documents and interact with them conversationally using Google's Gemini AI.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Upload multiple PDFs</li>
+      <li>Extract document text</li>
+      <li>Split documents into chunks</li>
+      <li>Generate embeddings</li>
+      <li>Store embeddings in FAISS</li>
+      <li>Semantic retrieval</li>
+      <li>Conversational AI with context-aware responses</li>
+    </ul>
+    <h4>Workflow</h4>
+    <div class="workflow-steps">
+      <span>Upload PDFs</span>→<span>Extract Text</span>→<span>Chunk</span>→<span>Embed</span>→<span>Store Vectors</span>→<span>Ask Questions</span>→<span>Retrieve</span>→<span>Generate Response</span>
+    </div>
+  </div>
+
+  <div class="project-modal" id="modal-threat">
+    <button class="modal-close">&times;</button>
+    <h3>Threat-Lens</h3>
+    <p><strong>Description:</strong> Network security ML pipeline with a complete ETL flow, experiment tracking, and cloud-native deployment.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>ETL pipeline</li>
+      <li>MongoDB integration</li>
+      <li>MLflow experiment tracking</li>
+      <li>DagsHub integration</li>
+      <li>Docker deployment</li>
+      <li>AWS EC2 deployment</li>
+      <li>AWS S3 artifact storage</li>
+      <li>Data validation</li>
+      <li>Pipeline orchestration</li>
+    </ul>
+  </div>
+
+  <div class="project-modal" id="modal-intent">
+    <button class="modal-close">&times;</button>
+    <h3>Intent Based Searching</h3>
+    <p><strong>Description:</strong> A hybrid semantic search engine combining Sentence Transformer embeddings, BM25 keyword ranking, and FAISS vector retrieval, with Redis caching for speed.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Sentence Transformers</li>
+      <li>BM25</li>
+      <li>FAISS</li>
+      <li>Redis caching</li>
+      <li>Semantic search</li>
+      <li>Embedding pipeline</li>
+      <li>Large-scale retrieval</li>
+    </ul>
+  </div>
+
+  <div class="project-modal" id="modal-pizza">
+    <button class="modal-close">&times;</button>
+    <h3>Pizza Hut Ordering System</h3>
+    <p><strong>Description:</strong> A full-stack food ordering platform with dynamic ordering, admin panel, and secure order processing.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Dynamic ordering</li>
+      <li>MySQL database</li>
+      <li>Admin panel</li>
+      <li>User authentication</li>
+      <li>Order processing</li>
+    </ul>
+  </div>
+
+  <div class="project-modal" id="modal-evm">
+    <button class="modal-close">&times;</button>
+    <h3>EVM by DSA</h3>
+    <p><strong>Description:</strong> A console-based Electronic Voting Machine using C++ and custom data structures.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Linked list-based candidate storage</li>
+      <li>Dynamic candidates</li>
+      <li>Duplicate vote prevention</li>
+      <li>Real-time vote counting</li>
+      <li>Result computation</li>
+    </ul>
+  </div>
+
+  <div class="project-modal" id="modal-crackdetect">
+    <button class="modal-close">&times;</button>
+    <h3>CrackDetect</h3>
+    <p><strong>Description:</strong> A multimodal deep learning approach that combines visual and acoustic information to detect and classify building cracks more accurately and robustly than image-only methods.</p>
+    <h4>Features</h4>
+    <ul>
+      <li>Multimodal fusion of image (ResNet50) and sound (1D ResNet) features</li>
+      <li>Attention-based feature fusion</li>
+      <li>3-class severity classification: No Crack, Minor Crack, Major Crack</li>
+      <li>Trained on 12,000+ paired image and audio samples across 250+ buildings</li>
+      <li>95.6% accuracy, 0.971 AUC-ROC, ~38ms inference time per sample</li>
+      <li>Robust to noise, lighting variation, and complex backgrounds</li>
+      <li>Lightweight enough for real-time, edge-device deployment</li>
+    </ul>
+    <h4>Workflow</h4>
+    <div class="workflow-steps">
+      <span>Data Collection</span>→<span>Preprocessing</span>→<span>Feature Extraction</span>→<span>Attention Fusion</span>→<span>Crack Prediction</span>
+    </div>
+  </div>
+
+  <!-- ===== Publications ===== -->
+  <section id="publications" class="section alt-bg">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Research</p>
+        <h2 class="section-title">Publications</h2>
+      </div>
+
+      <div class="publications-grid">
+        <div class="publication-card glass-card" data-aos="fade-up">
+          <a href="images/publications/physiorobustnet-thesis.png" target="_blank" rel="noopener" class="pub-thumb">
+            <img src="images/publications/physiorobustnet-thesis.png" alt="PhysioRobustNet thesis cover page" loading="lazy">
+          </a>
+          <span class="pub-status status-thesis">Undergraduate Thesis</span>
+          <h3>PhysioRobustNet: Adversarially Robust ECG Arrhythmia Classification via Hierarchical Temporal Feature Extraction</h3>
+          <p class="pub-desc">A hierarchical deep learning framework for ECG arrhythmia classification that stays accurate under adversarial perturbations, submitted as the undergraduate thesis at KUET.</p>
+          <div class="pub-tags">
+            <span>Deep Learning</span><span>Biomedical AI</span><span>ECG</span><span>Adversarial Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="publication-card glass-card" data-aos="fade-up" data-aos-delay="150">
+          <a href="images/publications/graph-sna-qpain2026.png" target="_blank" rel="noopener" class="pub-thumb">
+            <img src="images/publications/graph-sna-qpain2026.png" alt="Graph-Based Approaches to Social Network Analysis paper" loading="lazy">
+          </a>
+          <span class="pub-status status-published">Published — IEEE QPAIN 2026</span>
+          <h3>Graph-Based Approaches to Social Network Analysis: Pinpointing Central Nodes</h3>
+          <p class="pub-desc">A hybrid framework combining classical graph-theoretic centrality metrics with GNNs (GraphSAGE, GAT) to identify influential nodes in social networks, achieving up to 0.9992 AUC.</p>
+          <div class="pub-tags">
+            <span>ML</span><span>Social Network Analysis</span><span>Node Detection</span><span>GNN</span>
+          </div>
+        </div>
+
+        <div class="publication-card glass-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="pub-icon">📄</div>
+          <span class="pub-status status-progress">In Progress</span>
+          <h3>CHRONICLE: Continual Heterogeneous Graph Neural Learning for Incremental Cyberattack Classification on Blockchain.</h3>
+          <p class="pub-desc">A continual heterogeneous graph neural learning framework that incrementally classifies emerging cyberattack types on blockchain networks without catastrophic forgetting.</p>
+          <div class="pub-tags">
+            <span>Graph Neural Networks</span><span>Continual Learning</span><span>Cybersecurity</span><span>Blockchain</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Certifications ===== -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Verified Learning</p>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in">
+          <a href="images/certificates/supervised-ml.jpeg" target="_blank" rel="noopener" class="cert-thumb">
+            <img src="images/certificates/supervised-ml.jpeg" alt="Supervised Machine Learning certificate" loading="lazy">
+          </a>
+          <h3>Supervised Machine Learning</h3>
+          <p>Coursera &middot; DeepLearning.AI &amp; Stanford Online</p>
+          <div class="cert-links">
+            <a href="images/certificates/supervised-ml.jpeg" target="_blank" rel="noopener">View Certificate</a>
+            <a href="https://coursera.org/verify/28NB7H90XCXU" target="_blank" rel="noopener">Verify</a>
+          </div>
+        </div>
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in" data-aos-delay="100">
+          <a href="images/certificates/advanced-learning-algorithms.jpeg" target="_blank" rel="noopener" class="cert-thumb">
+            <img src="images/certificates/advanced-learning-algorithms.jpeg" alt="Advanced Learning Algorithms certificate" loading="lazy">
+          </a>
+          <h3>Advanced Learning Algorithms</h3>
+          <p>Coursera &middot; DeepLearning.AI &amp; Stanford Online</p>
+          <div class="cert-links">
+            <a href="images/certificates/advanced-learning-algorithms.jpeg" target="_blank" rel="noopener">View Certificate</a>
+            <a href="https://coursera.org/verify/87AM6Y2CPUDY" target="_blank" rel="noopener">Verify</a>
+          </div>
+        </div>
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in" data-aos-delay="200">
+          <a href="images/certificates/neural-networks-deep-learning.jpeg" target="_blank" rel="noopener" class="cert-thumb">
+            <img src="images/certificates/neural-networks-deep-learning.jpeg" alt="Neural Networks and Deep Learning certificate" loading="lazy">
+          </a>
+          <h3>Neural Networks and Deep Learning</h3>
+          <p>Coursera &middot; DeepLearning.AI</p>
+          <div class="cert-links">
+            <a href="images/certificates/neural-networks-deep-learning.jpeg" target="_blank" rel="noopener">View Certificate</a>
+            <a href="https://coursera.org/verify/SG6QKWQ5FF4D" target="_blank" rel="noopener">Verify</a>
+          </div>
+        </div>
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in" data-aos-delay="300">
+          <a href="images/certificates/intro-to-python.png" target="_blank" rel="noopener" class="cert-thumb">
+            <img src="images/certificates/intro-to-python.png" alt="Introduction to Python certificate" loading="lazy">
+          </a>
+          <h3>Introduction to Python</h3>
+          <p>DataCamp</p>
+          <div class="cert-links">
+            <a href="images/certificates/intro-to-python.png" target="_blank" rel="noopener">View Certificate</a>
+          </div>
+        </div>
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="cert-icon">🎓</div>
+          <h3>Machine Learning in Production</h3>
+          <p>Coursera</p>
+        </div>
+        <div class="cert-card glass-card tilt-card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="cert-icon">🎓</div>
+          <h3>Convolutional Neural Networks</h3>
+          <p>Coursera</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Competitions & Achievements ===== -->
+  <section id="competitions" class="section alt-bg">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Recognition</p>
+        <h2 class="section-title">Competitions &amp; Achievements</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot">🏆</div>
+          <div class="timeline-content glass-card timeline-content-media">
+            <div class="timeline-media">
+              <img src="images/HAckathons/deans-award-fixed.png" alt="Dean's Award certificate, KUET" loading="lazy">
+            </div>
+            <div>
+              <span class="timeline-year">2023</span>
+              <h3>Dean's Award</h3>
+              <p class="timeline-desc">Recognized for outstanding academic performance at KUET.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot">🥈</div>
+          <div class="timeline-content glass-card timeline-content-media">
+            <div class="timeline-media">
+              <img src="images/HAckathons/du-ai-challenge.jpeg" alt="Md. Shahinur Hasan at the DU AI Challenge" loading="lazy">
+            </div>
+            <div>
+              <h3>16th Place — DU AI Challenge</h3>
+              <p class="timeline-desc">Organized by RMEDU Student Club, University of Dhaka.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot">💡</div>
+          <div class="timeline-content glass-card timeline-content-media">
+            <div class="timeline-media">
+              <img src="images/HAckathons/Ai Hackathon.jpeg" alt="Md. Shahinur Hasan at the AI Engineering Hackathon, Brain Station 23" loading="lazy">
+            </div>
+            <div>
+              <h3>AI HAckathon Arranged by Poridhi.io</h3>
+              <p class="timeline-desc">Participated in multiple national-level AI hackathons, including the AI Engineering Hackathon at Brain Station 23.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot">📊</div>
+          <div class="timeline-content glass-card">
+            <h3>Datathons</h3>
+            <p class="timeline-desc">Participated in data science competitions and datathons arranged by datasolution 360</p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-tag">Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3>Let's build something intelligent together.</h3>
+          <p>I'm always open to discussing AI research collaborations, freelance opportunities, or full-time roles.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon">👤</div>
+            <div><span>Name</span><p>Md. Shahinur Hasan</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div><span>Phone</span><p>+8801989354060</p></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div><span>Email</span><p>shahinhasanronys@gmail.com</p></div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56v-2.16c-3.2.7-3.87-1.34-3.87-1.34-.53-1.34-1.29-1.7-1.29-1.7-1.05-.72.08-.7.08-.7 1.17.08 1.78 1.2 1.78 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+            </a>
+            <a href="mailto:shahinhasanronys@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24"><path d="M2 4h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.01L12 13 22 6.01V6H2Zm20 2.24-9.34 6.6a1 1 0 0 1-1.15 0L2 8.24V18h20V8.24Z"/></svg>
+            </a>
+            <a href="tel:+8801989354060" aria-label="Phone">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card" id="contact-form" data-aos="fade-left">
+          <div class="form-group">
+            <input type="text" id="form-name" name="name" required>
+            <label for="form-name">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="form-email" name="email" required>
+            <label for="form-email">Your Email</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="form-subject" name="subject" required>
+            <label for="form-subject">Subject</label>
+          </div>
+          <div class="form-group">
+            <textarea id="form-message" name="message" rows="5" required></textarea>
+            <label for="form-message">Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary ripple">Send Message</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="#home" class="nav-logo">Shahinur<span>.</span></a>
+      <p class="footer-tagline">Building intelligent systems that transform ideas into real-world impact.</p>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> Md. Shahinur Hasan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Back to Top ===== -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>
