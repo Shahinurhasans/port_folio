@@ -9,9 +9,9 @@
   const roles = [
     'AI Engineer',
     'Machine Learning Engineer',
-    'Biomedical AI Researcher',
-    'LLM Developer',
-    'AI Automation Engineer'
+    'Agentic AI & Automation Engineer',
+    'Human-Centered & Biomedical AI Researcher',
+    'LLM Developer'
   ];
 
   let roleIndex = 0;

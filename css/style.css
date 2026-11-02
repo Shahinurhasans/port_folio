@@ -249,7 +249,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
 
 .nav-links {
   display: flex;
-  gap: 28px;
+  gap: 20px;
 }
 
 .nav-link {
@@ -810,6 +810,15 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
   font-size: 0.75rem;
   color: var(--muted);
 }
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 14px;
+  font-size: 0.82rem;
+}
+.pub-links a { color: var(--accent-2); font-weight: 500; transition: color var(--transition); }
+.pub-links a:hover { color: var(--text); }
 
 /* ===== Certifications ===== */
 .cert-grid {
