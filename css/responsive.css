@@ -11,9 +11,12 @@
   .contact-grid { grid-template-columns: 1fr; }
 }
 
-@media (max-width: 900px) {
-  :root { --section-padding: 90px; }
+@media (max-width: 1120px) {
+  .nav-links { gap: 14px; }
+  .nav-link { font-size: 0.85rem; }
+}
 
+@media (max-width: 1040px) {
   .nav-links {
     position: fixed;
     top: 0; right: -100%;
@@ -31,6 +34,12 @@
   .nav-links.open { right: 0; }
   #hamburger { display: flex; }
   .nav-actions .btn-outline { display: none; }
+}
+
+@media (max-width: 900px) {
+  :root { --section-padding: 90px; }
+
+  .projects-grid { grid-template-columns: 1fr; gap: 26px; }
 
   .about-info-grid { grid-template-columns: 1fr 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }
