@@ -1,6 +1,6 @@
-# Md. Shahinur Hasan — Portfolio
+# Md. Shahinur Hasan - Portfolio
 
-A premium, dark-themed personal portfolio built with vanilla HTML, CSS, and JavaScript — no frameworks. Designed to showcase AI/ML engineering experience, education, projects, publications, certifications, and achievements.
+A premium, dark-themed personal portfolio built with vanilla HTML, CSS, and JavaScript - no frameworks. Designed to showcase AI/ML engineering experience, education, projects, publications, certifications, and achievements.
 
 ## Structure
 
@@ -41,4 +41,4 @@ portfolio/
 
 ## Deployment (GitHub Pages)
 
-Push this folder to a GitHub repository and enable GitHub Pages on the `main` branch — all paths are relative, so no build step is required.
+Push this folder to a GitHub repository and enable GitHub Pages on the `main` branch - all paths are relative, so no build step is required.

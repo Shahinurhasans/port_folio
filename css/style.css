@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Md. Shahinur Hasan — Portfolio
+   Md. Shahinur Hasan - Portfolio
    Main Stylesheet
    ========================================================================== */
 
@@ -444,7 +444,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 600; line-height
   align-items: start;
 }
 
-.about-text p { color: var(--muted); margin-bottom: 18px; }
+.about-text p { color: var(--muted); margin-bottom: 18px; text-align: justify; }
 .about-text strong { color: var(--text); }
 
 .about-info-grid {
